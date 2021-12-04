@@ -21,32 +21,19 @@
         app:layout_constraintTop_toBottomOf="@+id/ayuda"
         tools:ignore="MissingConstraints" />
 
-    <ImageButton
+    <Button
         android:id="@+id/ayuda"
-        android:layout_width="339dp"
-        android:layout_height="499dp"
-        android:src="@drawable/_9f870a53cec115efb36234d__1_"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/txtAyuda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="¡AYUDA!"
-        android:textColor="#FFFFFF"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toBottomOf="@+id/ayuda"
-        app:layout_constraintEnd_toEndOf="@+id/ayuda"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="@+id/ayuda"
-        app:layout_constraintTop_toTopOf="@+id/ayuda"
-        app:layout_constraintVertical_bias="0.468"
-        tools:ignore="MissingConstraints"
-        android:onClick="onClick"/>
+        android:background="@drawable/boton_redondo"
+        android:backgroundTint="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25"
+        tools:ignore="MissingConstraints" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
